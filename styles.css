@@ -1,0 +1,24 @@
+*{
+box-sizing: border-box;
+}
+
+h1{
+color: pink;
+transition: 1s;
+}
+
+h1:hover{
+color: navy;
+}
+
+
+body{
+width: 100%;
+background-color: black;
+}
+
+a.twitter{
+    background-image: url ("images/twitter.svg");
+}
+
+
