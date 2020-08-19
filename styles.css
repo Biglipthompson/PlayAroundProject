@@ -1,24 +1,77 @@
 *{
 box-sizing: border-box;
+border: solid red 1px;
 }
-
-h1{
-color: pink;
-transition: 1s;
-}
-
-h1:hover{
-color: navy;
-}
-
 
 body{
 width: 100%;
-background-color: black;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
 
-a.twitter{
-    background-image: url ("images/twitter.svg");
+.skills{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
 }
+
+.name{
+    margin-right: auto;
+}
+
+ul li{
+    padding: 20px;
+}
+ 
+.play-h1{
+color: black;
+background-color: yellow;
+text-align: center;
+}
+
+.play-h1:hover{
+color: red;
+transition: 2s;
+transition-property: color;
+}
+
+
+
+.trans-uni{
+background-color: yellow;
+text-align: center;
+}
+
+.trans-world{
+background-color: black;
+text-align: center;
+}
+
+.trans-world:hover{
+color: red;
+transition-duration: 2s;
+transition-property: color;
+
+}
+
+
+
+
+
+
+
+
+
+a.twitter{
+background-image: url ("images/twitter.svg");
+}
+
+footer{
+margin-top: auto;
+text-align: center;
+}
+
+
 
 
