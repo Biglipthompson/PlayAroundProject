@@ -19,7 +19,9 @@ margin-right: auto;
 }
 
 ul li{
+color: white;
 padding: 20px;
+font-weight: bold;
 border-radius: 20px;
 margin: 10px;
 border: solid 2px black;
@@ -57,7 +59,7 @@ width: 200px;
 
 .world-div:hover{
 color: teal;
-transition-duration: 3s;
+transition: 3s ease;
 transition-property: color transform;
 transform: rotateY(360deg);
 }
@@ -73,9 +75,16 @@ color: black;
 
 .uni-div:hover{
 color: teal;
-transition: 3s;
+transition: 3s ease;
 transition-property: color transform;  
 transform: rotateY(360deg);
+}
+
+.box{
+    float: left;
+    width: 29%;
+    padding: 1%;
+    margin: 1%;
 }
 
 .world-div,
@@ -84,7 +93,6 @@ transform: rotateY(360deg);
     padding: 20px;
     margin: 20px;
     box-shadow: 5px 5px 5px black;
-  
 }
 
 /* END OF DIVS AND TRANSITIONS */
@@ -104,7 +112,8 @@ background-image: url ("images/twitter.svg");
 footer{
 margin-top: auto;
 text-align: center;
-background-color: black;
+background-color: teal;
+height: 50px;
 
 }
 
